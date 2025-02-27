@@ -155,7 +155,8 @@ message ExprNode {
     ATANH = 266;
     SINH = 267;
     ACOSD = 268;
-    // skips 268,269,270 so that acosd, atand, atan2d are close to others
+    atand = 269;
+    // skips 269,270 so that atand, atan2d are close to others
     TRUNC = 271;
     LN = 272;
     LOG10 = 273;
