@@ -309,6 +309,7 @@ impl Strong {
             | ExprType::Vnode
             | ExprType::VnodeUser
             | ExprType::TestPaidTier
+            | ExprType::License
             | ExprType::Proctime
             | ExprType::PgSleep
             | ExprType::PgSleepFor
